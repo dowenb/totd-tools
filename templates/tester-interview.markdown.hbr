@@ -1,0 +1,30 @@
+---
+layout: single
+title:  "Interview with {{name}}"
+date:   {{dateTime}} +0000
+categories: interviews
+---
+
+## {{name}}
+
+Twitter: [{{twitter}}](https://twitter.com/{{twitter}})
+
+LinkedIn: <{{linkedin}}>
+
+## Interview
+
+### Where are you in your testing journey?
+
+{{{journey}}}
+
+### The best bug you have ever found?
+
+{{{bestBug}}}
+
+### Advice you would give to Testers?
+
+{{{advice}}}
+
+### What does winning mean to you?
+
+{{{winning}}}
