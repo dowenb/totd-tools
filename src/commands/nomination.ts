@@ -21,7 +21,7 @@ async function convertNomination(filePath: string): Promise<void> {
       const outputFile = template({
         Quote,
         Twitter: nomination.Twitter,
-        YourTwitter: nomination.Twitter,
+        YourTwitter: nomination.YourTwitter,
       })
       const unformattedFilename = `${nomination.Name}.twitter.txt`
       const filename = unformattedFilename.replace(/\s+/g, '-').toLowerCase()
