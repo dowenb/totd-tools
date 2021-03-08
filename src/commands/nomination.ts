@@ -17,7 +17,7 @@ async function convertNomination(filePath: string): Promise<void> {
     nominations => nominations.forEach(nomination => {
       const source = fs.readFileSync('./templates/tester-nomination.twitter.txt.hbr')
       const template = Handlebars.compile(String(source))
-      const Quote = String(nomination.NominationText).slice(0, 140)
+      const Quote = String(nomination.NominationText).slice(0, 180)
       const outputFile = template({
         Quote,
         Twitter: nomination.Twitter,
