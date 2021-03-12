@@ -43,8 +43,8 @@ async function convertNomination(filePath: string): Promise<void> {
       const template = Handlebars.compile(String(source))
       const outputFile = template({
         NominationText: nomination.NominationText,
-        LinkedIn: nomination.LinkedIn,
-        YourLinkedIn: nomination.YourLinkedIn,
+        Name: nomination.Name,
+        YourName: nomination.YourName,
       })
       const unformattedFilename = `${nomination.Name}.linkedin.txt`
       const filename = unformattedFilename.replace(/\s+/g, '-').toLowerCase()
