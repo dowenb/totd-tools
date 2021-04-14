@@ -71,7 +71,7 @@ async function convertNomination(filePath: string): Promise<void> {
         LinkedIn: nomination.LinkedIn,
         YourName: nomination.YourName,
       })
-      const unformattedFilename = `${nomination.Name}.json`
+      const unformattedFilename = `${nomination.Name}.txt`
       const filename = unformattedFilename.replace(/\s+/g, '-').toLowerCase()
       // eslint-disable-next-line no-console
       fs.writeFileSync(`./output/${filename}`, outputFile)
