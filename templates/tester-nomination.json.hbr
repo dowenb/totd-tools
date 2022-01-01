@@ -1,7 +1,9 @@
 {
+  "id": "",
   "name": "{{Name}}",
   "date": "",
-  "note": "Nominated by {{YourName}}: {{{NominationText}}}",
+  "nominated_by": "Nominated by {{YourName}}",
+  "nomination_text": "{{{NominationText}}}",
   "twitter": "https://twitter.com/{{Twitter}}",
-  "linkedin": "https://www.linkedin.com/in/{{LinkedIn}}"
+  "linkedin": "{{LinkedIn}}"
 },
