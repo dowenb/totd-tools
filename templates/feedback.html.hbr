@@ -1,43 +1,30 @@
-<!doctype html>
-<html lang="en">
+---
+layout: single
+title:  "Interview with {{name}}"
+date:   {{dateTime}} +0100
+categories: interviews
+---
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+## {{name}}
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+Twitter: [{{twitter}}](https://twitter.com/{{twitter}})
 
-    <title>Tester of The Day: Feedback</title>
-</head>
+LinkedIn: <{{linkedin}}>
 
-<body>
-    <div class="container-lg primary">
-    <h1 class="display-3">How can we improve #TesterOfTheDay?</h1>
-    <br>
-    </div>
-    <div class="container-md">
-        <h2>How can we grow and develop #TesterOfTheDay?</h2>
-        <ul class="develop_list">
-            {{#each feedback}}
-            <li>{{Grow}}</li>
-            {{/each}}
-        </ul>
-    <br>
-    <h2>Is there anything you would like to see us stop doing, or do differently?</h2>
-        <ul class="differently_list"></ul>
-            {{#each feedback}}
-            <li>{{Differently}}</li>
-            {{/each}}
-        </ul>
-    </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-<style>
-    body {
-        background-color: lightgrey;
-    }
-</style>
-</body>
+## Interview
 
-</html>
+### Where are you in your testing journey?
+
+{{{journey}}}
+
+### The best bug you have ever found?
+
+{{{bestBug}}}
+
+### Advice you would give to Testers?
+
+{{{advice}}}
+
+### What does winning mean to you?
+
+{{{winning}}}

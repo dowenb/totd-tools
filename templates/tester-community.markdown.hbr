@@ -1,0 +1,42 @@
+---
+layout: single
+title:  "Community interview with {{name}}"
+date:   {{dateTime}} +0000
+categories: community
+---
+
+## {{name}}
+
+Twitter: [{{twitter}}](https://twitter.com/{{twitter}})
+
+LinkedIn: <{{linkedin}}>
+
+## Interview
+
+### Where are you in your testing journey?
+
+{{{journey}}}
+
+### The best bug you have ever found?
+
+{{{bestBug}}}
+
+### What does quality mean to you?
+
+{{{quality}}}
+
+### What is your favorite test tool?
+
+{{{tool}}}
+
+### What is your third favorite testing joke?
+
+{{{joke}}}
+
+### Advice you would give to other Testers?
+
+{{{advice}}}
+
+### Promote yourself and your work
+
+{{{promote}}}
